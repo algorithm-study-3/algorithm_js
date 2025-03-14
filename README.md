@@ -16,3 +16,32 @@
 
 - (어떤 방법으로 접근했는지 설명)
 - (다른 풀이를 참고했다면 어떤걸 배웠는지)
+
+
+## 문제 풀이 주석 템플릿
+```js
+/*
+I: 두 개의 정수 a, b 
+O: 두 정수의 합
+C: 입력되는 수는 모두 정수이다. (0 <= a, b <= 100)
+E: a나 b가 0일 경우
+
+algo: 단순 덧셈 (ex: 정렬, 탐색, DP등)
+ds: 변수(ex: 배열, 스택, 큐, 링크드리스트 등)
+
+solution: (형식은 본인이 이해하기 쉬운대로)
+- 두 수를 입력받고
+- 더한 후 
+- 결과를 출력한다.
+*/
+
+function simpleAddition(a, b) {
+    return a + b;
+}
+
+/* 사용 예시 */
+const a = 10;
+const b = 20;
+const result = simpleAddition(a, b);
+console.log("결과:", result);
+```
