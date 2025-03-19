@@ -29,5 +29,6 @@ var mergeTwoLists = function (list1, list2) {
 	} else {
 		tail.next = list2;
 	}
+
 	return dummy.next;
 };
