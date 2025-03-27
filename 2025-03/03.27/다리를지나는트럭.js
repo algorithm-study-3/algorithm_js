@@ -35,7 +35,7 @@ ex)
 
 function solution(bridge_length, weight, truck_weights) {
   let curTime = 0;
-  let queue = [[0, 0]];
+  let queue  = [[0, 0]];
   let curWeight = 0;
 
   while (queue.length > 0 || truck_weights > 0) {
